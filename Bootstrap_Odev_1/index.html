@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,13 +13,14 @@
         <link rel="icon" href="image/logoHelmet.webp" />
     </head>
     <body>
+        <!-- NAVBAR -->
         <nav
-            class="navbar navbar-expand-sm bg-warning border-bottom border-dark border-2"
+            class="navbar navbar-expand-sm bg-secondary border-bottom border-dark border-2"
         >
             <div class="container-fluid">
                 <a
-                    class="navbar-brand d-flex align-items-center text-primary-emphasis fw-bold"
-                    href="#"
+                    class="navbar-brand d-flex align-items-center text-light fw-bold"
+                    href="index.html"
                     ><img
                         style="height: 50px"
                         src="image/logoHelmet.webp"
@@ -42,23 +43,23 @@
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a
-                                class="nav-link active text-primary-emphasis fw-bold"
+                                class="nav-link active text-light fw-bold"
                                 aria-current="page"
-                                href="#"
+                                href="index.html"
                                 >Anasayfa</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
-                                class="nav-link text-primary-emphasis fw-semibold"
-                                href="#"
+                                class="nav-link text-light fw-semibold"
+                                href="models.html"
                                 >Modeller</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
-                                class="nav-link text-primary-emphasis fw-semibold"
-                                href="#"
+                                class="nav-link text-light fw-semibold"
+                                href="about.html"
                                 >Hakkımızda</a
                             >
                         </li>
@@ -66,6 +67,48 @@
                 </div>
             </div>
         </nav>
+
+        <!-- JUMBOTRON -->
+        <hero
+            ><div
+                class="jumbotron text-center p-3"
+                style="background-color: #e9ecef"
+            >
+                <h1 class="display-4">Moto Galerim'e Hoşgeldiniz!</h1>
+                <p class="lead">
+                    Burada sahibinden ikinci el motosiklet modellerimizi
+                    bulabilirsiniz. Daha uygununu bulursanız paranınız belki
+                    birazı geri iade.
+                </p>
+                <hr class="my-4" />
+                <p>
+                    Modellerimizi görmek için Modellersayfamızı ziyaret
+                    edebilirsiniz.
+                </p>
+                <a
+                    class="btn btn-secondary btn-lg"
+                    href="models.html"
+                    role="button"
+                    >Modeller</a
+                >
+            </div>
+        </hero>
+
+        <section>
+            <article>
+                <div class="container p-3 text-center">
+                    <h4>Sitemizde bulunan bazı motosiklet modelleri</h4>
+
+                    <ul style="list-style-position: inside">
+                        <li>TVS Apache RTR 150</li>
+                        <li>Bajaj Pulsar 200 NS</li>
+                        <li>Yamaha MT-07</li>
+                        <li>Triumph Street Triple 765 RS</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

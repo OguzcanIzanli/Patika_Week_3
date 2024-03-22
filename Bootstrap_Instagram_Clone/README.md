@@ -2,4 +2,4 @@
 
 Bootstrap kullanılarak yapılmış basit bir HTML instagram clone'u.
 
-![Site preview](image/gif.gif 'Site Preview')
+![Site preview](assets/images/gif.gif 'Site Preview')

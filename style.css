@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/background_pattern.jpg);    
+}
+
+
+p{
+    color: #FEF2F4;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 65%;
+    margin: 60px auto;
+}
+
+.projectContainer {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 171, 171, 0.2);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.projectContainer:last-child {
+    margin-bottom: 0;
+}
+
+.website {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.website img {
+    border: 5px solid rgba(209, 77, 114, 0.5);
+    border-radius: 10px;
+}
+
+.website a {
+    text-decoration: none;
+    position: absolute;
+    width: 320px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.websiteLink:hover {
+    background-color: rgba(254, 242, 244, 0.7);
+    border-radius: 10px;
+    color: #D14D72;
+    transition: all 0.5s;
+}
+
+a:link {
+    color: transparent;
+}
+
+.readme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.readmeLink {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    scale: 1;
+    transition: all 0.3s;
+}
+
+.readmeLink:hover {
+    color: #D14D72;
+    transition: all 0.3s;
+    scale: 1.05;
+}
+
+.readmeLink::after {
+    content: "Koda Git";
+    background-color: rgba(254, 242, 244, 0.5);
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 5px;
+    display: inline-block;
+}

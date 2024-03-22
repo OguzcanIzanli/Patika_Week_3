@@ -6,4 +6,4 @@ Daha önce basit bir şekilde CSS kullanılarak oluşturulan site, Bootstrap öz
 - Ürünler sayfasında card yapısını kullanıldı.
 - Kullanılan card yapısı grid sistemin içinde kullanıldı.
 
-![Site preview](image/gif.gif 'Site Preview')
+![Site preview](images/gif.gif 'Site Preview')

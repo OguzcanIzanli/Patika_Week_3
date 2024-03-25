@@ -57,6 +57,8 @@ p{
     justify-content: center;
     transition: all 0.5s;
     border-radius: 10px;
+    font-size: 1.5rem;
+    color: #D14D72;
 }
 
 .websiteLink:hover {
@@ -64,10 +66,6 @@ p{
     border-radius: 10px;
     color: #D14D72;
     transition: all 0.5s;
-}
-
-a:link {
-    color: transparent;
 }
 
 .readme {
